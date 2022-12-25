@@ -1,0 +1,76 @@
+ /* Add some basic styling to the page */
+ body {
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #00bcd4;
+
+
+ }
+
+
+ .container {
+     max-width: 600px;
+     margin: 5% auto;
+     padding: 20px;
+     text-align: center;
+     background-color: #fff;
+     box-shadow: 0 4px 8px rgb(0 0 0 / 10%);
+     border-radius: 10px;
+ }
+
+ h1 {
+     font-size: 32px;
+     margin: 15px 0px 35px 0px;
+     color: #333;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+
+ /* Style the password input field, generate button, and copy button */
+ .password-input {
+     width: 100%;
+     max-width: 300px;
+     font-size: 18px;
+     padding: 10px;
+     border: 1px solid #ddd;
+     border-radius: 7px;
+     margin-bottom: 20px;
+     margin-right: 7px;
+     font-weight: bold;
+     background-color: #fff;
+     box-shadow: 3px 3px 0px 0px rgb(0 0 0 / 14%);
+ }
+
+ .generate-button,
+ .copy-button {
+     display: inline-block;
+     font-size: 18px;
+     padding: 10px 20px;
+     border: 1px solid #00b7ff;
+     border-radius: 7px;
+     background-color: #00b7ff;
+     color: #fff;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     margin-right: 10px;
+     box-shadow: 3px 3px 0px 0px rgb(0 0 0 / 14%);
+ }
+
+ .generate-button:hover,
+ .copy-button:hover {
+     background-color: #00cfff;
+ }
+
+ /* Style the list of recently generated passwords */
+ .recent-passwords {
+     margin: 20px 0 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .recent-passwords li {
+     margin: 10px 0;
+     font-size: 18px;
+     color: #333;
+ }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Add a heading -->
+        <h1>Password Generator</h1>
+        <!-- Add a form to generate the password -->
+        <form>
+            <!-- Add a password input field -->
+            <input type="text" class="password-input" placeholder="Password will appear here..." readonly>
+            <!-- Add a button to copy the password to the clipboard -->
+            <button type="button" class="copy-button">Copy Password</button>
+            <!-- Add a button to generate the password -->
+            <button type="button" class="generate-button">Generate Password</button>
+            
+        </form>
+        <!-- Add a list to display the recently generated passwords -->
+        <ul class="recent-passwords"></ul>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
